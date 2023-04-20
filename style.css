@@ -1,0 +1,32 @@
+body{
+    background-color: firebrick;  
+    font-family: cursive; 
+  }
+  .header_div{
+      background-color: aliceblue;
+  }
+  .header_div p{
+      color: darkslategray;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: 3px;
+  }
+  .main_div button{
+  margin-top: 20px;
+  font-size: 20px;
+  width: 100px;
+  }
+  .footer{
+      position: fixed;
+      bottom: 0;
+      background-color:cyan;
+       width: 100%;
+      text-align: center;
+      line-height: 3;
+      font-size: 20px;
+      text-shadow: 5px 5px 10px black;
+  }
+  #result_label,#result_confidence{
+      color: greenyellow;
+  }
